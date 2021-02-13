@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-primary {
+  height: 100vh;
+  background: url(/root/Documents/Projects/Ice-Cream/assets/images/img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-bar {
+  padding: 20px 60px;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  padding: 4px 8px;
+  background: #4b4821;
+  border-radius: 4px;
+  color: #081d20ff;
+  font-size: 30px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.nav-logo a:hover {
+  background-color: #ef3f43;
+  transition: 0.3s;
+}
+
+.nav-links ul {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.nav-links ul li a {
+  color: #4b4821;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.p-30 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.center {
+  margin-top: 350px;
+}
+
+.nav-links ul li a:hover {
+  color: #ef3f43;
+  transition: 0.3s;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #ef3f43;
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.nav-links ul li:hover:after {
+  width: 100%;
+}
+
+.btn {
+  margin: 2px 0px;
+  padding: 10px 20px;
+  background-color: #ef3f43;
+  font-weight: normal;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.nav-links .btn {
+  color: #081d20ff;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.button {
+  margin: 0 auto;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #4b4821;
+  color: #4b4821;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 400;
+  height: 3.75em;
+  line-height: 3.85em;
+  letter-spacing: 2px;
+  padding: 0 4em;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.button:hover {
+  background-color: #ef3f43;
+  box-shadow: none;
+  transition: 0.4s;
+}
